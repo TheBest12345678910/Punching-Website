@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.timer-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.timer-container.running {
+  display: block; /* or flex or whatever your intended style is */
+}
+
+.timer-container.hidden {
+  display: none !important;
+}
+
+
+  
+.time-display {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+  
+input {
+    width: 60px;
+    padding: 0.5rem;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+  
+.button-row {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Default background */
+.timer-container {
+    background: yellow;
+    transition: background-color 0.3s ease;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+/* Background states */
+.timer-container.running {
+    background-color: lightgreen;
+}
+  
+.timer-container.stopped {
+    background-color: lightcoral;
+}
+
+
+video {
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    margin-top: 2rem;
+  }
+  

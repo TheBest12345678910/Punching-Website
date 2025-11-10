@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avoid That Punch!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="timer-container">
+    <div class="time-display" id="display">00:00</div>
+    <div>
+      <input type="number" id="minutes" placeholder="Min" min="0">
+      <input type="number" id="seconds" placeholder="Sec" min="0" max="59">
+    </div>
+    <div class="button-row">
+      <button id="stopBtn" onclick="stopTimer()">Stop Timer</button>
+      <button id="startBtn" onclick="startTimer()">Start Timer</button>
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>

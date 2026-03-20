@@ -9,14 +9,14 @@ const punchVideos = [
   "./media/Punch_2.mp4",
   "./media/Punch_3.mp4",
   "./media/Punch_4.mp4",
-  "./media/Punch_5.mp4"
-  "./media/Punch_6.mp4"
-  "./media/Punch_7.mp4"
-  "./media/Punch_8.mp4"
-  "./media/Punch_9.mp4"
-  "./media/Punch_10.mp4"
-  "./media/Punch_11.mp4"
-  "./media/Punch_12.mp4"
+  "./media/Punch_5.mp4",
+  "./media/Punch_6.mp4",
+  "./media/Punch_7.mp4",
+  "./media/Punch_8.mp4",
+  "./media/Punch_9.mp4",
+  "./media/Punch_10.mp4",
+  "./media/Punch_11.mp4",
+  "./media/Punch_12.mp4",
   "./media/Punch_13.mp4"
 ];
 
